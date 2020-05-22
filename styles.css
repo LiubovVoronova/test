@@ -1,0 +1,38 @@
+
+.progress__container {
+    width: 100px;
+    height: 30px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.progress__container--fill {
+    height: 30px;
+    width: 0;
+    background: linear-gradient(to right, #63ff48, #ffe600);
+    border-radius: 5px;
+}
+
+.progress__container__text {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 18px;
+    color: #24611c;
+    position: absolute;
+    top: 60px;
+    left: 49%;
+}
+
+.progress__button {
+    display: block;
+    margin: 0px auto;
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #63ff48;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 3px rgba(0,0,0,.5);
+    color: #24611c;
+}
